@@ -10,7 +10,7 @@ def q1():
 
 def q2(): 
   #Write Assignment code here
-  user = int(input("Input a number: "))
+  user = float(input("Input a number: "))
   if user > 0:
     print("Positive")
   else:
@@ -18,7 +18,7 @@ def q2():
 
 def q3(): 
   #Write Assignment code here
-  user = int(input("Input a number: "))
+  user = int(input("Input an integer: "))
   if user%2 == 0:
     print("Even")
   else:
